@@ -7,7 +7,7 @@
  * Author URI:      https://fixon.biz/
  * Text Domain:     fixon-service-server
  * Domain Path:     /languages
- * Version:         0.1.1
+ * Version:         0.1.5
  *
  * @package         fixon-service-server
  */
@@ -60,7 +60,7 @@ function fixon_ss_combo_ajax( &$wp ) {
   }
 }
 include_once("includes/utilit.php");
-include_once("includes/suporte-gshcuenp.php");    //CLIENTES
+include_once("includes/clientes.php");
 include_once("includes/suporte-gn5h7vpaxu.php");  //CAIXAS
 include_once("includes/suporte-dtvsovjyd.php");   //FLUXO DE CAIXA
 include_once("includes/suporte-l4nxfglp.php");    //CONTAS A RECEBER
