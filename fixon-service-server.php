@@ -14,6 +14,12 @@
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
+require 'plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://github.com/fixonweb/Fixon-Service-Server/fixon-service-server.php',
+    __FILE__, 
+    'Fixon-Service-Server/fixon-service-server'
+);
 
 $plugin_file = __FILE__;
 // add_action('init', 'fixon_ss_activate_au');
